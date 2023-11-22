@@ -1,0 +1,82 @@
+
+#logo {
+  width: 10vw;
+  height: 3vw;
+}
+
+#header {
+  border-top: 2px solid rgb(248, 199, 167);
+  background-color: rgb(246, 238, 237);
+  color: rgb(25, 93, 93);
+  font-size: 0.8em;
+}
+
+#img {
+  width: 70%;
+  border-radius: 10px;
+}
+
+#header span {
+  font-variant: small-caps;
+}
+
+.recipe {
+  width: 60%;
+  margin: 0 auto;
+  text-align: left;
+}
+
+#main {
+  width: 60%;
+  margin: 0 auto;
+}
+
+p,
+li {
+  font-family: "Times New Roman", Times, serif;
+}
+
+figcaption {
+  color: grey;
+}
+
+.description {
+  color: red;
+  border-left: solid 1.5px rgb(237, 148, 70);
+  width: 60%;
+  margin: 0 auto;
+  text-align: left;
+  padding-left: 30px;
+}
+
+h1 {
+  font-size: x-large;
+}
+
+hr {
+  /*align:center;*/
+  color: rgb(242, 40, 188);
+  width: 60%;
+  size: 10px;
+}
+
+hr.recipe {
+  width: 100%;
+}
+
+#title li:first-of-type {
+  font-weight: bold;
+}
+
+#comment {
+  width: 65%;
+}
+
+#header p:first-child {
+   padding-bottom: 10px;
+}
+
+.middle{
+  margin: 0 auto;
+  text-align: center;
+}
