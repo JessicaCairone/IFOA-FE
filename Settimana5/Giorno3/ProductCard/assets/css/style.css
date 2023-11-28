@@ -1,0 +1,74 @@
+
+body {
+    box-sizing: border-box;
+  padding: 90px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #612406;
+
+}
+.flex {
+    display: flex;
+}
+
+#btn {
+    background-color: #F3DF85;
+    border-radius: 100px;
+    border: none;
+    color: #612406;
+  justify-content: center;
+  align-items: center;
+   align-self: center;
+    font-size: 32px;
+    width: 300px;
+    height: 60px;
+    margin-bottom: 20px;
+}
+
+#description {
+justify-content: space-around;
+justify-content: center;
+
+}
+
+#infoProdotto {
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+img {
+    border-radius: 150px 150px 0px 0px;
+    flex-direction: column;
+    justify-content: center;
+   column-gap: 0px;
+
+  
+}
+
+#card {
+    background-color: #FBF7E3;
+    width: 612px;
+    border-radius: 150px 150px 150px 150px;
+   justify-content: center;
+    flex-direction: column;
+   
+}
+
+#parag1,
+#parag2 {
+    font-size: 48px;
+}
+
+#parag1 {
+    font-weight: 700;
+    margin-left: 40px;
+}
+#parag2 {
+    margin-right: 40px;
+}
+
+#parag3 {
+    font-size: 32px;
+}
+
